@@ -1,0 +1,326 @@
+{
+  "_metadata": {
+    "description": "新潟大学理学部 教育職員免許状取得要件の構造化データ",
+    "version": "2.0",
+    "last_updated": "2026-03-01",
+    "source": "各年度の履修の手引き「教育職員免許状の取得について」セクションから構造化",
+    "section_number": {
+      "2023": "5. 教育職員免許状の取得について",
+      "2024": "6. 教育職員免許状の取得について（セクション番号変更：成績疑義照会制度の新設に伴い繰り下げ）",
+      "2025": "6. 教育職員免許状の取得について"
+    }
+  },
+  "available_licenses": [
+    {
+      "type": "中学校教諭一種免許状",
+      "subjects": ["数学", "理科"]
+    },
+    {
+      "type": "高等学校教諭一種免許状",
+      "subjects": ["数学", "理科"]
+    }
+  ],
+  "graduate_note": "大学院自然科学研究科博士前期課程に進学すると専修免許状の取得が可能",
+  "basic_qualification": "学士の学位を有すること",
+  "minimum_credits": {
+    "中学校教諭一種免許状": {
+      "教科及び教職に関する科目": 60,
+      "note": "原本PDFでは59単位と記載されていたが、2023年度・2024年度ともに正誤表で60単位に訂正"
+    },
+    "高等学校教諭一種免許状": {
+      "教科及び教職に関する科目": 60,
+      "note": "原本PDFでは59単位と記載されていたが、正誤表で60単位に訂正"
+    }
+  },
+  "general_education_requirements": {
+    "description": "一般教育科目（教育職員免許法施行規則第66条の6に定める科目）",
+    "courses": [
+      {
+        "category": "日本国憲法",
+        "credits": 2,
+        "course_name": "日本国憲法",
+        "method": "必修"
+      },
+      {
+        "category": "体育",
+        "credits": 2,
+        "course_name": "健康スポーツ科学講義 / 健康スポーツ科学講義a / 健康スポーツ科学講義b",
+        "method": "上記のうちいずれかから2単位修得"
+      },
+      {
+        "category": "外国語コミュニケーション",
+        "credits": 2,
+        "course_name": "アカデミック英語入門L(1単位) + アカデミック英語入門R(1単位)",
+        "method": "2科目2単位修得"
+      },
+      {
+        "category": "数理・データ活用及び人工知能に関する科目又は情報機器の操作",
+        "credits": 2,
+        "course_name": "情報処理概論AI / 情報処理概論AII / データサイエンス基礎演習 / データサイエンス総論I / データサイエンス総論II",
+        "method": "データサイエンス総論I+IIの2単位、または情報処理概論AI・AII・データサイエンス基礎演習から2単位"
+      }
+    ]
+  },
+  "subject_specific_requirements": {
+    "数学": {
+      "中学校一種": {
+        "教科に関する専門的事項": {
+          "total_min_credits": 24,
+          "categories": [
+            {
+              "name": "代数学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "線形代数IA", "credits": 1, "required": true},
+                {"name": "線形代数IB", "credits": 1, "required": true},
+                {"name": "数学演習A", "credits": 1, "required": true},
+                {"name": "数学演習B", "credits": 1, "required": true},
+                {"name": "代数入門A", "credits": 2},
+                {"name": "代数入門B", "credits": 2},
+                {"name": "代数系IA", "credits": 1},
+                {"name": "代数系IB", "credits": 1},
+                {"name": "代数系IIA", "credits": 1},
+                {"name": "代数系IIB", "credits": 1}
+              ]
+            },
+            {
+              "name": "幾何学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "線形代数IIA", "credits": 2, "required": true},
+                {"name": "線形代数IIB", "credits": 2, "required": true},
+                {"name": "代数・幾何学序論A", "credits": 1, "required": true},
+                {"name": "代数・幾何学序論B", "credits": 1, "required": true},
+                {"name": "幾何学IA〜IIB", "credits": "各1-2"}
+              ]
+            },
+            {
+              "name": "解析学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "微分積分学IA", "credits": 1, "required": true},
+                {"name": "微分積分学IB", "credits": 1, "required": true},
+                {"name": "微分積分学IIA", "credits": 2, "required": true},
+                {"name": "微分積分学IIB", "credits": 2, "required": true},
+                {"name": "解析学序論A", "credits": 2},
+                {"name": "解析学序論B", "credits": 2},
+                {"name": "複素解析学IA〜IIB", "credits": "各1"},
+                {"name": "実解析学A/B", "credits": "各2"},
+                {"name": "関数解析学A/B", "credits": "各2"}
+              ]
+            },
+            {
+              "name": "確率論・統計学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "統計学基礎1", "credits": 1},
+                {"name": "統計学基礎2", "credits": 1},
+                {"name": "数理統計学IA〜IIB", "credits": "各1"}
+              ]
+            },
+            {
+              "name": "コンピュータ",
+              "min_credits": 1,
+              "courses": [
+                {"name": "プログラミング概論A", "credits": 1},
+                {"name": "プログラミング概論B", "credits": 1},
+                {"name": "数値解析A", "credits": 1},
+                {"name": "数値解析B", "credits": 1},
+                {"name": "プログラミング演習A", "credits": 1},
+                {"name": "プログラミング演習B", "credits": 1}
+              ]
+            }
+          ]
+        },
+        "教科教育法": {
+          "total_credits": 8,
+          "courses": [
+            {"name": "数学科教育法I", "credits": 2, "required": true},
+            {"name": "数学科教育法II", "credits": 2, "required": true},
+            {"name": "数学科教育法III", "credits": 2, "required": true},
+            {"name": "数学科教育法IV", "credits": 2, "required": true}
+          ]
+        }
+      },
+      "高等学校一種": {
+        "教科に関する専門的事項": {
+          "total_min_credits": 28,
+          "categories_same_as": "中学校一種と同じ5区分（代数学/幾何学/解析学/確率論・統計学/コンピュータ）から各1単位以上",
+          "additional_note": "最低修得単位を超えた科目で計4単位以上必要"
+        },
+        "教科教育法": {
+          "total_min_credits": 4,
+          "courses": [
+            {"name": "数学科教育法I", "credits": 2, "required": true},
+            {"name": "数学科教育法II〜IV", "credits": 2, "method": "II〜IVから1科目2単位以上"}
+          ]
+        }
+      },
+      "graduation_credit_note": "数学プログラムでは数学科教育法I〜IVの単位は専門教育に関する授業科目として卒業要件単位に含めることができる"
+    },
+    "理科": {
+      "中学校一種": {
+        "教科に関する専門的事項": {
+          "total_min_credits": 24,
+          "categories": [
+            {
+              "name": "物理学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "物理学基礎AI (またはBI)", "credits": 2},
+                {"name": "物理学基礎AII (またはBII)", "credits": 2},
+                {"name": "物理学基礎CI", "credits": 2},
+                {"name": "物理学基礎CII", "credits": 2},
+                {"name": "物理学概論", "credits": 2}
+              ]
+            },
+            {
+              "name": "物理学実験",
+              "min_credits": 1,
+              "courses": [
+                {"name": "物理学基礎実習a", "credits": 1},
+                {"name": "物理学基礎実習b", "credits": 1}
+              ]
+            },
+            {
+              "name": "化学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "化学基礎A", "credits": 2},
+                {"name": "化学基礎B", "credits": 2},
+                {"name": "SDGsを支える化学", "credits": 2}
+              ]
+            },
+            {
+              "name": "化学実験",
+              "min_credits": 1,
+              "courses": [
+                {"name": "化学基礎実習a", "credits": 1},
+                {"name": "化学基礎実習b", "credits": 1}
+              ]
+            },
+            {
+              "name": "生物学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "生物学基礎A", "credits": 2},
+                {"name": "生物学基礎B", "credits": 2}
+              ]
+            },
+            {
+              "name": "生物学実験",
+              "min_credits": 1,
+              "courses": [
+                {"name": "生物学基礎実習a", "credits": 1},
+                {"name": "生物学基礎実習b", "credits": 1}
+              ]
+            },
+            {
+              "name": "地学",
+              "min_credits": 1,
+              "courses": [
+                {"name": "地学基礎A", "credits": 2},
+                {"name": "地学基礎B", "credits": 2},
+                {"name": "地学基礎C", "credits": 2}
+              ]
+            },
+            {
+              "name": "地学実験",
+              "min_credits": 1,
+              "courses": [
+                {"name": "地学基礎実習a", "credits": 1},
+                {"name": "地学基礎実習b", "credits": 1}
+              ]
+            }
+          ]
+        },
+        "教科教育法": {
+          "total_credits": 8,
+          "courses": [
+            {"name": "理科教育法I", "credits": 2, "required": true},
+            {"name": "理科教育法II", "credits": 2, "required": true},
+            {"name": "理科教育法III", "credits": 2, "required": true},
+            {"name": "理科教育法IV", "credits": 2, "required": true}
+          ]
+        }
+      },
+      "高等学校一種": {
+        "教科に関する専門的事項": {
+          "total_min_credits": 32,
+          "categories": [
+            {"name": "物理学", "min_credits": 1},
+            {"name": "化学", "min_credits": 1},
+            {"name": "生物学", "min_credits": 1},
+            {"name": "地学", "min_credits": 1}
+          ],
+          "experiments": "4実験科目（物理学実験/化学実験/生物学実験/地学実験）のうち1科目1単位以上"
+        },
+        "教科教育法": {
+          "total_min_credits": 4,
+          "courses": [
+            {"name": "理科教育法I", "credits": 2, "required": true},
+            {"name": "理科教育法II", "credits": 2, "required": true}
+          ]
+        }
+      }
+    }
+  },
+  "education_foundation_courses": {
+    "description": "教育の基礎的理解に関する科目等",
+    "courses": [
+      {
+        "category": "教育の基礎的理解に関する科目",
+        "items": [
+          {"name": "教育学概論", "credits": 2, "中学一種": true, "高校一種": true, "year": "2〜4年"},
+          {"name": "教職入門", "credits": 2, "中学一種": true, "高校一種": true, "year": "1年"},
+          {"name": "教育の制度と経営", "credits": 2, "中学一種": true, "高校一種": true, "year": "2〜4年"},
+          {"name": "教育・学校心理学B", "credits": 2, "中学一種": true, "高校一種": true, "year": "1年"},
+          {"name": "特別支援教育概論", "credits": 2, "中学一種": true, "高校一種": true, "year": "3・4年"}
+        ],
+        "subtotal": {"中学一種": 10, "高校一種": 10}
+      },
+      {
+        "category": "道徳、総合的な学習の時間等の指導法及び生徒指導、教育相談等に関する科目",
+        "items": [
+          {"name": "道徳指導法", "credits": 2, "中学一種": true, "高校一種": false, "year": "2〜4年"},
+          {"name": "教育課程及び総合的な学習の時間の指導法B", "credits": 2, "中学一種": true, "高校一種": true, "year": "2〜4年"},
+          {"name": "教育方法及び特別活動の指導法B", "credits": 2, "中学一種": true, "高校一種": true, "year": "2年"},
+          {"name": "教育情報論", "credits": 1, "中学一種": true, "高校一種": true, "year": "2〜4年"},
+          {"name": "生徒指導B", "credits": 2, "中学一種": true, "高校一種": true, "year": "2・3年"},
+          {"name": "教育相談・進路指導B", "credits": 2, "中学一種": true, "高校一種": true, "year": "2・3年"}
+        ],
+        "subtotal": {"中学一種": 11, "高校一種": 9}
+      },
+      {
+        "category": "教育実践に関する科目",
+        "items": [
+          {"name": "中等教育実習II", "credits": 3, "中学一種": true, "高校一種": true, "year": "4年"},
+          {"name": "中等教育実習III", "credits": 2, "中学一種": true, "高校一種": false, "year": "4年"},
+          {"name": "教職実践演習（中等）", "credits": 2, "中学一種": true, "高校一種": true, "year": "4年"}
+        ],
+        "subtotal": {"中学一種": 7, "高校一種": 5}
+      }
+    ],
+    "total": {"中学一種": 28, "高校一種": 24}
+  },
+  "teaching_practice": {
+    "中学校一種": {
+      "credits": 5,
+      "duration": "4週間（中学校）",
+      "year": "4年次"
+    },
+    "高等学校一種": {
+      "credits": 3,
+      "duration": "2週間（高等学校）",
+      "year": "4年次"
+    },
+    "prerequisite": "3年次終了までに以下を修得済みであること：教職入門、教育・学校心理学Bまたは特別支援教育概論の1科目、生徒指導B及び教育相談・進路指導Bの2科目、教科教育法1科目"
+  },
+  "important_notes": [
+    "教員免許取得のための科目（「教科に関する専門的事項」以外の教科及び教職に関する科目）は原則として卒業要件の単位には含まれない",
+    "ただし数学プログラムでは数学科教育法I〜IVは専門教育として卒業要件に含められる",
+    "教育実習の受講には3年次終了時点での前提科目修得が必要",
+    "免許取得には卒業要件の124単位に加えて追加の単位修得が必要となる場合が多い",
+    "教職課程の科目はCAP制の対象外となるものがある"
+  ]
+}
